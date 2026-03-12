@@ -1,0 +1,19 @@
+server:
+  port: 1002
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bus_transport_db
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
