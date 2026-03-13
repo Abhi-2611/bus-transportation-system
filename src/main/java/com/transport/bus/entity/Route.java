@@ -35,6 +35,8 @@ public class Route {
 
     private String stations;
 
+    private Character activeFlag;
+
     @OneToMany(mappedBy = "route", cascade = CascadeType.ALL)
     private List<Bus> buses;
 

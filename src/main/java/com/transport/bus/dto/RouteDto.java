@@ -21,4 +21,6 @@ public class RouteDto {
 
     private String stations;
 
+    private Character activeFlag;
+
 }
