@@ -55,6 +55,22 @@ util
 
 ---
 
+## Architecture Diagram
+
+Client → Controller → Service → Repository → Database      
+
+### Flow
+
+1. **Client** sends HTTP requests to the backend.
+2. **Controller** receives the request and forwards it to the service layer.
+3. **Service** contains the application logic.
+4. **Repository** communicates with the database using JPA.
+5. **Entity** represents database tables.
+6. **DTO** is used for transferring data between API and service layers.
+7. **Mapper** converts DTO objects to Entity objects and vice versa.
+
+---
+
 ## API Endpoints
 
 ### Route APIs
