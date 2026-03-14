@@ -1,3 +1,9 @@
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-4.x-brightgreen)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 # Bus Transportation System
 
 A Spring Boot REST API for managing bus routes, buses, and route–bus mapping.  
