@@ -48,6 +48,7 @@ public class BusServiceImpl implements BusService {
         } else {
 
             bus = TransportMapper.mapToBus(busDto);
+            bus.setActiveFlag('Y');
 
         }
 
