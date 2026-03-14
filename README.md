@@ -19,7 +19,6 @@ The application provides endpoints to create, update, retrieve, and soft delete 
 - PostgreSQL  
 - Maven  
 - Lombok  
-- OpenAPI / Swagger  
 
 ---
 
@@ -50,7 +49,7 @@ util
 - **Mapper** – Converts between DTO and Entity objects
 - **Entity** – Represents database tables
 - **Exception** – Handles application exceptions globally
-- **Config** – Contains OpenAPI and CORS configuration
+- **Config** – Contains CORS configuration
 - **Util** – Common utility classes such as API response wrapper
 
 ---
@@ -119,25 +118,6 @@ GET | `/api/route-bus/buses?routeId=1` | Get buses by route |
   }
 }
 ```
-
----
-
-## Swagger Documentation
-
-After starting the application open:
-
-```
-http://localhost:8080/swagger-ui.html
-```
-
-or
-
-```
-http://localhost:8080/swagger-ui/index.html
-```
-
-Swagger UI allows testing all APIs from the browser.
-
 ---
 
 ## Database Tables
